@@ -17,28 +17,28 @@ btnClear.addEventListener('click', () => {
 });
 
 function counts(count) {
-    if (count == "10") {
-        messageText("Молодец! 👍");
-    }
-
-    if (count == "20") {
-        messageText("Так держать! 😎");
-    }
-
-    if (count == "40") {
-        messageText("Красава! 😈");
-    }
-
-    if (count == "60") {
-        messageText("Уфф, чё за тяги такие бархатные... 👡");
-    }
-
-    if (count == "70") {
-        messageText("Кефтемеее 👞");
-    }
-
-    if (count == "100") {
-        messageText("Скибиди доп доп доп ес ес ес ес 🕺");
+    switch (count) {
+        case 10:
+            messageText("Молодец! 👍");
+            break;
+        case 20:
+            messageText("Так держать! 😎");
+            break;
+        case 40:
+            messageText("Красава! 😈");
+            break;
+        case 60:
+            messageText("Уфф, чё за тяги такие бархатные... 👡");
+            break;
+        case 70:
+            messageText("Кефтемеее 👞");
+            break;
+        case 100:
+            messageText("Скибиди доп доп доп ес ес ес ес 🕺");
+            break;
+        default:
+            console.log("Error");
+            break;
     }
 }
 
