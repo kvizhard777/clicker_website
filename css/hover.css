@@ -1,0 +1,10 @@
+/* Button */
+.button:active {
+    background-color: var(--click-color);
+}
+
+/* Clear */
+.clear:hover {
+    background-color: var(--clear-btn-hover);
+    transition: 0.2s ease-in-out;
+}

@@ -1,0 +1,11 @@
+:root {
+    --background-color: #080808;
+    --button-color: #202020;
+    --border-color: #404040;
+    --click-color: #252525;
+    --count-color: #247cff;
+    --text-color: #fff;
+    --clear-btn-color: #ff2e2e;
+    --clear-btn-hover: #ff1515;
+    --message-color: #0ccc16;
+}
