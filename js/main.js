@@ -13,7 +13,7 @@ btn.addEventListener('click', () => {
 // Очистить количество кликов
 btnClear.addEventListener('click', () => {
     btnCount.innerText = "0";
-    messageBlockText.messageBlockText = "";
+    messageBlockText.innerText = "";
 });
 
 function counts(count) {
